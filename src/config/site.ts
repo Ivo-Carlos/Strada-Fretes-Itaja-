@@ -1,8 +1,3 @@
-import heroImg from "@/assets/frete-geladeira-inox.webp.asset.json";
-import duplexImg from "@/assets/frete-geladeira-duplex.webp.asset.json";
-import expositorImg from "@/assets/frete-expositor-refrigerado.webp.asset.json";
-import stradaImg from "@/assets/fiat-strada-utilitario.webp.asset.json";
-import brancaImg from "@/assets/frete-geladeira-branca.webp.asset.json";
 
 /**
  * Configuração central do site. Edite aqui nome, WhatsApp, cidades, GTM e URL.
@@ -28,13 +23,13 @@ export const site = {
     updatedAt: "03/11/2026",
   },
   images: {
-    hero: { src: heroImg.url, alt: "Fiat Strada branca transportando geladeira inox em Itajaí", w: 900, h: 1200 },
+    hero: { src: "/images/frete-geladeira-inox.webp", alt: "Fiat Strada branca transportando geladeira inox em Itajaí", w: 900, h: 1200 },
     gallery: [
-      { src: heroImg.url, alt: "Frete de geladeira inox na caçamba da Fiat Strada", w: 900, h: 1200 },
-      { src: duplexImg.url, alt: "Duas geladeiras transportadas com cintas na Fiat Strada", w: 900, h: 1200 },
-      { src: expositorImg.url, alt: "Expositor refrigerado transportado na caçamba da Fiat Strada", w: 900, h: 1200 },
-      { src: brancaImg.url, alt: "Fiat Strada com geladeira branca amarrada na caçamba", w: 900, h: 1200 },
-      { src: stradaImg.url, alt: "Fiat Strada branca utilizada nos pequenos fretes", w: 900, h: 1200 },
+      { src: "/images/frete-geladeira-inox.webp", alt: "Frete de geladeira inox na caçamba da Fiat Strada", w: 900, h: 1200 },
+      { src: "/images/frete-geladeira-duplex.webp", alt: "Duas geladeiras transportadas com cintas na Fiat Strada", w: 900, h: 1200 },
+      { src: "/images/frete-expositor-refrigerado.webp", alt: "Expositor refrigerado transportado na caçamba da Fiat Strada", w: 900, h: 1200 },
+      { src: "/images/frete-geladeira-branca.webp", alt: "Fiat Strada com geladeira branca amarrada na caçamba", w: 900, h: 1200 },
+      { src: "/images/fiat-strada-utilitario.webp", alt: "Fiat Strada branca utilizada nos pequenos fretes", w: 900, h: 1200 },
     ],
   },
 } as const;
