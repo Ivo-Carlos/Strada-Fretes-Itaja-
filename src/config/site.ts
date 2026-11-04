@@ -7,7 +7,7 @@ export const site = {
   companyName: "Strada Fretes Itajaí", // nome provisório — substituir pela marca definitiva
   shortDescription:
     "Pequenos fretes e transporte de objetos com utilitário em Itajaí e região.",
-  whatsappNumber: "554796980353", // +55 47 9698-0353
+  whatsappNumber: "5547997082171", // +55 47 99708-2171
   phoneNumber: "", // opcional: telefone clicável (dispara phone_click)
   mainCity: "Itajaí",
   state: "Santa Catarina",

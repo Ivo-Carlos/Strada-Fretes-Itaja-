@@ -8,10 +8,10 @@ describe("whatsapp helpers", () => {
   it("builds wa.me link with encoded message", () => {
     expect(whatsappUrl("Olá frete", "+55 47 99999-8888")).toBe("https://wa.me/5547999998888?text=Ol%C3%A1%20frete");
   });
-  it("sends every default link to the configured number 554796980353", () => {
-    expect(site.whatsappNumber).toBe("554796980353");
-    expect(whatsappUrl()).toBe("https://wa.me/554796980353?text=Ol%C3%A1!%20Encontrei%20voc%C3%AAs%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20pequeno%20frete.");
-    expect(whatsappUrl(buildQuoteMessage(base))).toContain("https://wa.me/554796980353?text=");
+  it("sends every default link to the configured number 5547997082171", () => {
+    expect(site.whatsappNumber).toBe("5547997082171");
+    expect(whatsappUrl()).toBe("https://wa.me/5547997082171?text=Ol%C3%A1!%20Encontrei%20voc%C3%AAs%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20pequeno%20frete.");
+    expect(whatsappUrl(buildQuoteMessage(base))).toContain("https://wa.me/5547997082171?text=");
   });
   it("includes required fields and help answer", () => {
     const m = buildQuoteMessage({ ...base, ajuda: "Sim" });
